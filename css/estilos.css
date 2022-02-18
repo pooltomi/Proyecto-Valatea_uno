@@ -1,10 +1,21 @@
-//* Eliminar bordes entre contenido y caja*//
+/* Eliminar bordes entre contenido y caja*/
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+/* fuente*/
 body{
     font-family: 'Roboto Serif', sans-serif;
 }
+
+/* Clase contenedor para darle estilo a todo el sitio*/
+.contenedor{
+    padding: 60px 0; /*arriba y abajo de 60 y 0 hacia los lados para que entre secciones haya un espacio*/
+    width: 90%;
+    max-width: 1000px;
+    margin: auto; /*para centrar todo*/
+    overflow: hidden; /*por si algo se quiere salir del contenedor, se esconda*/
+}
+
