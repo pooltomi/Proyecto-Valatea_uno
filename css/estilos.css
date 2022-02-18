@@ -57,6 +57,14 @@ nav > a:hover{
     text-decoration: underline; /*para que al pasar por encima el puntero se remarque la palabra*/
 }
 
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%; /*la ola se mueve hacia abajo*/
+
+
+}
+
 
 
 
